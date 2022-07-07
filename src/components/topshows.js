@@ -1,19 +1,19 @@
-import * as d3 from "d3";
-import { useD3 } from "./useD3";
+// import * as d3 from "d3";
+// import { useD3 } from "./useD3";
 import data from "../data/Movies.json";
 import { BarGraph } from "react-d3-bar-graph";
 
 /* Filtering the data to only show movies from 2020, then sorting them by their imdb score, and then
 slicing the top 5 movies. */
-const all2020movies = data.filter((d) => d.release_year === 2022);
+const all2020shows = data.filter((d) => d.release_year === 2022 && d.type === "SHOW");
 //find the top 5 movies of 2020 and put them in an array
-const fiveMovies = all2020movies
+const fiveMovies = all2020shows
   .sort((a, b) => b.imdb_score - a.imdb_score)
   .slice(0, 5);
 
 console.log(fiveMovies);
 
-const BarChart = () => {
+const TopShows = () => {
   return (
     <BarGraph
       width={400}
@@ -24,19 +24,20 @@ const BarChart = () => {
       data={fiveMovies}
       ticks={10}
       styles={{
-        fill: "#0BC5EA",
+        fill: "#d62828",
         "margin-top": "1300px",
       }}
       axisStyles={{
-        color: "black",
+        color: "d62828",
         "font-size": "15px",
       }}
-      // title="What are the 5 top shows of 2020 on netflix "
+      title="What are the 5 top shows of 2022 on netflix (IMDB Rating)"
+			titleStyles={{color: '#d62828'}}
       xAxisSlanted={true}
     />
   );
 };
-export default BarChart;
+export default TopShows;
 
 // function BarChart({ data }) {
 // 	const ref = useD3((svg) => {

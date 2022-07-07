@@ -4384,6 +4384,11 @@ damerau-levenshtein@^1.0.8:
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
 
+dat.gui@^0.7.9:
+  version "0.7.9"
+  resolved "https://registry.yarnpkg.com/dat.gui/-/dat.gui-0.7.9.tgz#860cab06053b028e327820eabdf25a13cf07b17e"
+  integrity sha512-sCNc1OHobc+Erc1HqiswYgHdVNpSJUlk/Hz8vzOCsER7rl+oF/4+v8GXFUyCgtXpoCX6+bnmg07DedLvBLwYKQ==
+
 data-urls@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/data-urls/-/data-urls-2.0.0.tgz#156485a72963a970f5d5821aaf642bef2bf2db9b"
@@ -8247,9 +8252,9 @@ react-clientside-effect@^1.2.6:
     "@babel/runtime" "^7.12.13"
 
 react-d3-bar-graph@^0.1.6:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/react-d3-bar-graph/-/react-d3-bar-graph-0.1.7.tgz#a0b7292cd4ce94519d6ac6d3080c923f8c9cfa87"
-  integrity sha512-XztbSOp+yZklSRujtUcyfWay/HKINnR+3Lp+Du0J6dFTMqX+2jWikWaBj4RjDQ3o/iw/afGUu/uoCglKmp2+jg==
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/react-d3-bar-graph/-/react-d3-bar-graph-0.1.8.tgz#1c3892641cc60eb2180f026e793b137e678b1ebc"
+  integrity sha512-FoFVBS7bLHUorqq8RCILKrutaTwPO97F33PivO2yGdzulacqyF5ot/J+PBNXOczwVeSRx+MdvA6875j4ZMwaXw==
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
