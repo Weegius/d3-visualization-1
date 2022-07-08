@@ -11,13 +11,13 @@ const fiveMovies = all2020shows
   .sort((a, b) => b.imdb_score - a.imdb_score)
   .slice(0, 5);
 
-console.log(fiveMovies);
+
 
 const TopShows = () => {
   return (
     <BarGraph
       width={400}
-      height={400}
+      height={500}
       yRange={10}
       xValue="title"
       yValue="imdb_score"

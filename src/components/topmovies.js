@@ -9,7 +9,7 @@ const fiveMovies = all2020movies
   .sort((a, b) => b.imdb_score - a.imdb_score)
   .slice(0, 5);
 
-console.log(fiveMovies);
+
 
 const TopMovies = () => {
   return (

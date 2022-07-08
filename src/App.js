@@ -7,6 +7,7 @@ import {
   TabPanel,
 } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import TopGenres from "./components/topgenres";
 import TopMovies from "./components/topmovies";
 import TopShows from "./components/topshows";
 
@@ -215,6 +216,7 @@ function App() {
               </TabPanel>
               <TabPanel>
                 <Flex zIndex={1}  borderRadius={"10"}>
+                  <TopGenres />
                 </Flex>
               </TabPanel>
             </TabPanels>
